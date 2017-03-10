@@ -25,6 +25,9 @@ import com.victor.loading.rotate.RotateLoading;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 新鲜事
+ */
 public class FreshNewsFragment extends BaseFragment implements LoadResultCallBack {
 
     @InjectView(R.id.recycler_view)

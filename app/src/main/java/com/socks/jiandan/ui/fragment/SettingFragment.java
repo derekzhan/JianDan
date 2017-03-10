@@ -24,7 +24,7 @@ public class SettingFragment extends PreferenceFragment implements Preference.On
     public static final String ABOUT_APP = "about_app";
     public static final String APP_VERSION = "app_version";
     public static final String ENABLE_SISTER = "enable_sister";
-    public static final String ENABLE_FRESH_BIG = "enable_fresh_big";
+    public static final String ENABLE_FRESH_BIG = "enable_fresh_big"; //新鲜事大图模式
 
     private Preference clearCache;
     private Preference aboutApp;

@@ -27,6 +27,9 @@ import java.util.ArrayList;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 左侧主菜单
+ */
 public class MainMenuFragment extends BaseFragment {
 
     @InjectView(R.id.recycler_view)
