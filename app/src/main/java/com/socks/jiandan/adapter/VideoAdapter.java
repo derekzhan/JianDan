@@ -42,6 +42,9 @@ import com.socks.jiandan.view.imageloader.ImageLoadProxy;
 
 import java.util.ArrayList;
 
+/**
+ * 电影Adapter
+ */
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
 
     private int page;

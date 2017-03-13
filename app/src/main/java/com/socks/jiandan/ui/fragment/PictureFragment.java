@@ -32,6 +32,9 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import de.greenrobot.event.EventBus;
 
+/**
+ * 无聊图
+ */
 public class PictureFragment extends BaseFragment implements LoadResultCallBack, LoadFinishCallBack {
 
     @InjectView(R.id.recycler_view)

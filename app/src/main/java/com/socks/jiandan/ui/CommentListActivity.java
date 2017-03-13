@@ -21,6 +21,9 @@ import com.victor.loading.rotate.RotateLoading;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 评论列表
+ */
 public class CommentListActivity extends BaseActivity implements LoadResultCallBack {
 
     @InjectView(R.id.swipe_refresh)

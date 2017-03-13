@@ -74,6 +74,7 @@ public class MainActivity extends BaseActivity {
         mActionBarDrawerToggle.syncState();
         mDrawerLayout.setDrawerListener(mActionBarDrawerToggle);
 
+        //主页显示新鲜事和主菜单
         replaceFragment(R.id.frame_container, new FreshNewsFragment());
         replaceFragment(R.id.drawer_container, new MainMenuFragment());
     }

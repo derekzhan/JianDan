@@ -37,6 +37,9 @@ import com.socks.jiandan.utils.TextUtil;
 
 import java.util.ArrayList;
 
+/**
+ * 段子Adapter
+ */
 public class JokeAdapter extends RecyclerView.Adapter<JokeAdapter.JokeViewHolder> {
 
     private int page;

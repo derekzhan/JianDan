@@ -24,6 +24,9 @@ import com.socks.jiandan.utils.TextUtil;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 视频详情
+ */
 public class VideoDetailActivity extends BaseActivity implements View.OnClickListener {
 
     @InjectView(R.id.webview)

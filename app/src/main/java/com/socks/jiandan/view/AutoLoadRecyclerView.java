@@ -11,7 +11,7 @@ import com.socks.jiandan.callback.LoadMoreListener;
 import com.socks.jiandan.view.imageloader.ImageLoadProxy;
 
 /**
- * Created by zhaokaiqiang on 15/4/9.
+ * 对recycleview的封装，支持上拉刷新和加载更多。
  */
 public class AutoLoadRecyclerView extends RecyclerView implements LoadFinishCallBack {
 
@@ -90,17 +90,17 @@ public class AutoLoadRecyclerView extends RecyclerView implements LoadFinishCall
 
             if (imageLoader != null) {
                 switch (newState) {
-                    case SCROLL_STATE_IDLE:
+                    case SCROLL_STATE_IDLE: //没滑动
                         imageLoader.resume();
                         break;
-                    case SCROLL_STATE_DRAGGING:
+                    case SCROLL_STATE_DRAGGING: //滑动中
                         if (pauseOnScroll) {
                             imageLoader.pause();
                         } else {
                             imageLoader.resume();
                         }
                         break;
-                    case SCROLL_STATE_SETTLING:
+                    case SCROLL_STATE_SETTLING: //滑动停止
                         if (pauseOnFling) {
                             imageLoader.pause();
                         } else {

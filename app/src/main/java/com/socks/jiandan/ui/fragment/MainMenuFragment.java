@@ -106,6 +106,7 @@ public class MainMenuFragment extends BaseFragment {
                 @Override
                 public void onClick(View v) {
 
+                    //点击某一个菜单
                     try {
                         if (currentFragment != menuItem.getType()) {
                             Fragment fragment = (Fragment) Class.forName(menuItem.getFragment()

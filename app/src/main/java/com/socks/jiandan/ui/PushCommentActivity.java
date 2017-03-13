@@ -32,6 +32,9 @@ import java.util.HashMap;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 提交评论
+ */
 public class PushCommentActivity extends BaseActivity {
 
     @InjectView(R.id.tv_title)

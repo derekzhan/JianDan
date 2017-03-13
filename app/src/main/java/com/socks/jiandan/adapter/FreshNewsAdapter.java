@@ -152,6 +152,9 @@ public class FreshNewsAdapter extends RecyclerView.Adapter<FreshNewsAdapter.View
         loadDataByNetworkType();
     }
 
+    /**
+     * 根据网络状态加载不同的数据，没网从cache中加载，有网从网络加载
+     */
     private void loadDataByNetworkType() {
 
         if (NetWorkUtil.isNetWorkConnected(mActivity)) {

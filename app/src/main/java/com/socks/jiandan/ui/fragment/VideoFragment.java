@@ -23,6 +23,9 @@ import com.victor.loading.rotate.RotateLoading;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
+/**
+ * 小电影
+ */
 public class VideoFragment extends BaseFragment implements LoadResultCallBack {
 
     @InjectView(R.id.recycler_view)

@@ -1,8 +1,12 @@
 package com.socks.jiandan.callback;
 
 /**
- * Created by zhaokaiqiang on 15/4/9.
+ * 网络请求完成回调接口
  */
 public interface LoadFinishCallBack {
+	/**
+	 * 加载完成
+	 * @param obj
+     */
 	void loadFinish(Object obj);
 }

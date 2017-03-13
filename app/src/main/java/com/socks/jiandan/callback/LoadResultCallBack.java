@@ -1,7 +1,7 @@
 package com.socks.jiandan.callback;
 
 /**
- * Created by zhaokaiqiang on 15/11/7.
+ * 网络请求结果回调接口
  */
 public interface LoadResultCallBack {
 
@@ -9,7 +9,17 @@ public interface LoadResultCallBack {
     int SUCCESS_NONE = 1002;
     int ERROR_NET = 1003;
 
+    /**
+     * 成功
+     * @param result
+     * @param object
+     */
     void onSuccess(int result, Object object);
 
+    /**
+     * 失败
+     * @param code
+     * @param msg
+     */
     void onError(int code, String msg);
 }

@@ -136,6 +136,7 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.PictureV
             holder.tv_content.setText(picture.getText_content().trim());
         }
 
+        //点击图片跳转到图片详情页
         holder.img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
